@@ -12,8 +12,7 @@ def self.all
 end
 
 def self.print_all
-  @@all.each do |x|
-    puts x.to_s
+  @@all.each do 
   end
 end
 
