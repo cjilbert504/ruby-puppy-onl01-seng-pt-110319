@@ -12,7 +12,7 @@ def self.all
 end
 
 def self.print_all
-  puts @@all.to_s
+  puts @@all.is_a?(String)
 end
 
 def save
