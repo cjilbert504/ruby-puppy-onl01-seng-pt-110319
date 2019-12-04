@@ -13,7 +13,7 @@ end
 
 def self.print_all
   @@all
-    puts 
+    puts
   end
 end
 
