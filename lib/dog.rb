@@ -12,7 +12,7 @@ def self.all
 end
 
 def self.print_all
-  @@all
+  puts @@all
 end
 
 def save
