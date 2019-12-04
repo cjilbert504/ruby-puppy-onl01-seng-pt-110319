@@ -13,8 +13,6 @@ end
 
 def self.print_all
   @@all
-    puts
-  end
 end
 
 def save
