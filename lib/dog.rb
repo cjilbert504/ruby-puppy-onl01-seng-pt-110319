@@ -18,7 +18,7 @@ def self.print_all
 end
 
 def save
-  @@all << @name
+  @@all << self
 end
 
 def self.clear_all
