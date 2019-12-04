@@ -12,8 +12,8 @@ def self.all
 end
 
 def self.print_all
-  @@all.each do |name|
-    puts @name=
+  @@all
+    puts 
   end
 end
 
