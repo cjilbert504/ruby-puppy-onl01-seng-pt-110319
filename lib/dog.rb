@@ -12,7 +12,9 @@ def self.all
 end
 
 def self.print_all
-  puts @@all.is_a?(String)
+  @@all.each do |x|
+    puts x.to_s
+  end
 end
 
 def save
